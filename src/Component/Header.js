@@ -18,17 +18,33 @@ class Header extends React.Component{
 
             <div className='categories'>
             <img src={cate} alt='' id='cate' />
-            <p>categories</p>
-            
             </div>
 
-            <div className='input'>
+            <ul>
+            <p id='para'>categories</p> 
+            <ul>
+            <li>Development</li>
+            <li>Business</li>
+            <li>Finance & Accounting</li>
+            <li>IT & software</li>
+            <li>Office Productivity</li>
+            <li>Personal Development</li>
+            <li>Design</li>
+            <li>Marketing</li>
+            <li>Lifestyle</li>
+            <li>Health & fitness</li>
+            <li>Photography</li>
+            <li>Music</li>
+            <li>Teaching</li>
+            </ul>
+            </ul>
+
             <input 
             placeholder='search for anything'
             id='input'
             />
               
-            </div>
+       
 
             <div className='text'>
 
@@ -36,6 +52,8 @@ class Header extends React.Component{
             <p>Teach on Udemy</p>
             
             </div>
+
+            <div className='left'></div>
             
             <div className='cart'>
             <img src = {cart} alt='cart' id='cart' />
